@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "edmund-lib"
+version = "0.1.1"
+description = ""
+authors = ["Dan D. <daniel.dominko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.59.5"
+google-generativeai = "^0.8.3"
+boto3 = "^1.35.95"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.5"
+poetry = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
